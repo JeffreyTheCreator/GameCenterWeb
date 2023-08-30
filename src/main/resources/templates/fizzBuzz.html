@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FizzBuzz</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/fizzbuzz.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+  <link rel="manifest" href="/images/site.webmanifest">
+  <link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+
+<div style="display: flex; flex-direction: column; gap: 3rem">
+
+  <div id="welcome_message">
+    <h1 style="font-weight: bold; text-align: center">Welcome to the fizzBuzz game</h1>
+    <h4 style="font-weight: lighter; text-align: center">Enter a number <span style="font-weight: bold">between 1 - 100</span></h4>
+  </div>
+
+  <div style="display: flex; justify-content: center; align-items: center; gap: .5rem" id="choices_message">
+    <p style="font-weight: bold; font-size: 1.2rem;" id="chosen_number">Number: ()</p>
+  </div>
+
+  <div style="display: flex; justify-content: center" id="result_message">
+    <p style="text-align: center; font-weight: bold; font-size: 1.2rem;" id="decide_result">/</p>
+  </div>
+
+  <div style="display: flex; gap: 2rem; justify-content: center">
+    <form style="display: flex; flex-direction: column; width: 15rem" method="GET">
+      <input style="padding-top: 0.5rem; padding-bottom: 0.5rem; border-radius: 0.5rem; border: none; background-color: #c37533" type="text" id="number" name="number"><br>
+      <input style="padding-top: 0.5rem; padding-bottom: 0.5rem; border: none;" id="submit_btn" type="submit" value="Submit">
+    </form>
+  </div>
+  <div style="display: flex; justify-content: center;">
+    <button id="back_menu_btn"><span id="back_menu_text">Back to Menu</span></button>
+  </div>
+
+</div>
+
+<script type="module" src="/fizzBuzzGame/events/click.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Schere Stein Papier</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/rockpaperscissors.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="manifest" href="/images/site.webmanifest">
+    <link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+
+<div style="display: flex; flex-direction: column; gap: 3rem">
+
+  <div id="welcome_message">
+    <h1 style="font-weight: bold; text-align: center">Welcome to the rock paper scissors game</h1>
+    <h4 style="font-weight: lighter; text-align: center">Select one button</h4>
+  </div>
+
+    <div style="display: flex; justify-content: center; align-items: center; gap: .5rem" id="choices_message">
+        <p id="user_choice">User (/)</p>
+        <p style="font-weight: bold">vs</p>
+        <p id="computer_choice">Computer (/)</p>
+    </div>
+
+    <div style="display: flex; justify-content: center" id="winner_message">
+        <p id="decide_winner">/</p>
+    </div>
+
+    <div style="display: flex; justify-content: center; align-items: center; gap: .5rem" id="score_message">
+        <p style="font-weight: bold">Score:</p>
+        <p id="user_score">User (0) </p>
+        <p>|</p>
+        <p id="computer_score">Computer (0) </p>
+    </div>
+
+  <div style="display: flex; gap: 2rem; justify-content: center">
+      <button style="color: #FFFFFF" type="button" class="game_btn_design" id="scissor_btn">✂️</button>
+      <button style="color: #FFFFFF" type="button" class="game_btn_design" id="stone_btn">🪨</button>
+      <button style="color: #FFFFFF" type="button" class="game_btn_design" id="paper_btn">📝</button>
+  </div>
+    <div style="display: flex; justify-content: center;">
+        <button id="back_menu_btn"><span id="back_menu_text">Back to Menu</span></button>
+    </div>
+
+
+  </div>
+
+<script type="module" src="/rockPaperScissorsGame/game/events/click.js"></script>
+</body>
+</html>

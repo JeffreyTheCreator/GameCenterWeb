@@ -1,0 +1,116 @@
+body {
+    background-color: sandybrown;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#user_choice {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+#computer_choice {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+#user_score {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+#computer_score {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.game_btn_design {
+    padding: 15px 30px;
+    border-radius: 1rem;
+    border: 0;
+    background-color: black;
+    cursor: pointer;
+}
+
+.game_btn_design:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(246, 246, 246, 0.74);
+}
+
+#back_menu_btn {
+    background-color: cadetblue;
+    padding: 15px 30px;
+    border-radius: 1rem;
+    border: 0;
+    cursor: pointer;
+}
+
+#back_menu_btn:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(246, 246, 246, 0.74);
+}
+
+#back_menu_text {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+@media (min-width: 600px) {
+
+    #welcome_message > h4{
+        font-size: 1.4rem;
+    }
+
+    #user_choice {
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #computer_choice {
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #decide_winner {
+        font-size: 2rem;
+    }
+
+    #score_message > p {
+        font-size: 2rem;
+    }
+
+    #user_score {
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #computer_score {
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .game_btn_design {
+        padding: 33px 56px;
+        border-radius: 1rem;
+        border: 0;
+        background-color: black;
+        cursor: pointer;
+    }
+
+}
