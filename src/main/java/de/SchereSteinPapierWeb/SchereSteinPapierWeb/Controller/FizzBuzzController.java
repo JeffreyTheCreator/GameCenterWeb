@@ -11,7 +11,7 @@ public class FizzBuzzController {
     @GetMapping("/fizzbuzz")
     public String fizzbuzz(@RequestParam(name="name", required=false, defaultValue="World") String name, Model model) {
         model.addAttribute("name", name);
-        return "fizzbuzz";
+        return "fizzBuzz";
     }
 
 }

@@ -11,7 +11,7 @@ public class SchereSteinPapierController {
     @GetMapping("/rockpaperscissors")
     public String rockpaprscissors(@RequestParam(name="name", required=false, defaultValue="World") String name, Model model) {
         model.addAttribute("name", name);
-        return "rockpaperscissors";
+        return "rockPaperScissors";
     }
 
 }
