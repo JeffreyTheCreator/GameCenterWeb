@@ -5,5 +5,5 @@ get_sch_btn.addEventListener("click", e => {
    location.href = "/rockpaperscissors";
 });
 get_fizz_btn.addEventListener("click", e => {
-   location.href = "fizzbuzz";
+   location.href = "/fizzbuzz";
 });
