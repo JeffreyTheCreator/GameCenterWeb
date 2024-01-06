@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrainTrainer</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/braintrainer.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
+    <link rel="manifest" href="../images/site.webmanifest">
+    <link rel="mask-icon" href="../images/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <h1 style="color: white; text-align: center;">Welcome to the Brain Trainer game</h1>
+    <div id="brainTrainer_container" style="display: flex; flex-direction: column; gap: 6rem; margin-top: 4rem; margin-bottom: 6rem;">
+        <div id="first_circle_container" style="display: flex; gap: 6rem;">
+
+                <input type="button" id="light_one" class="light_buttons_layout" onclick="playSoundOne()">
+                <audio id="audio_light_one" src="../audio/soundOne.mp3"></audio>
+            
+                <input type="button" id="light_two" class="light_buttons_layout" onclick="playSoundTwo()">
+                <audio id="audio_light_two" src="../audio/soundTwo.mp3"></audio>
+            
+        </div>
+        <button id="brainTrainer_middle" class="light_middle" style="height: 5rem; border-radius: 2rem;">Memory</button>
+        <div id="second_circle_container" style="display: flex; gap: 6rem;">
+
+            <input type="button" id="light_three" class="light_buttons_layout" onclick="playSoundThree()">
+            <audio id="audio_light_three" src="../audio/soundThree.mp3"></audio>
+            
+            <input type="button" id="light_four" class="light_buttons_layout" onclick="playSoundFour()">
+            <audio id="audio_light_four" src="../audio/soundFour.mp3"></audio>
+            
+        </div>
+    </div>
+    <button id="back_menu_btn"><span id="back_menu_text">Back to Menu</span></button>
+
+    <script src="brainTrainer/events/click.js"></script>
+</body>
+</html>

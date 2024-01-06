@@ -44,6 +44,24 @@ body {
     font-weight: bold;
 }
 
+#brainTrainer_btn {
+    border-radius: 0.5rem;
+    border: none;
+    padding: 1rem 60px;
+    background-color: cadetblue;
+    cursor: pointer;
+}
+
+#brainTrainer_btn:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(246, 246, 246, 0.74);
+}
+
+#brainTrainer_text {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
 @media (min-width: 600px) {
     #welcome_message > h4{
         font-size: 1.4rem;
@@ -62,6 +80,15 @@ body {
         font-weight: bold
     }
     #fizz_btn {
+        border-radius: 0.5rem;
+        border: none;
+        padding: 1rem 50px;
+    }
+    #brainTrainer_text {
+        font-size: 1.2rem;
+        font-weight: bold
+    }
+    #brainTrainer_btn {
         border-radius: 0.5rem;
         border: none;
         padding: 1rem 50px;
